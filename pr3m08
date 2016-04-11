@@ -36,7 +36,7 @@ public class Pr3m08 {
 
       Scanner sc = new Scanner(System.in);
 
-      int n1, n2, n3, n4, n5, menor=0;
+      int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, menor=0;
 
     
 
@@ -60,6 +60,21 @@ public class Pr3m08 {
 
         n5 = sc.nextInt();
 
+System.out.print("Introduzca sexto número: ");
+
+        n6 = sc.nextInt();
+System.out.print("Introduzca septimo número: ");
+
+        n7 = sc.nextInt();
+System.out.print("Introduzca octavo número: ");
+
+        n8 = sc.nextInt();
+System.out.print("Introduzca noveno número: ");
+
+        n9 = sc.nextInt();
+System.out.print("Introduzca décimo número: ");
+
+        n10 = sc.nextInt();
         if(n1 < n2 && n1 < n3 && n1 < n4 && n1 < n5 ){
 
               menor=n1;
@@ -81,8 +96,23 @@ public class Pr3m08 {
         }    else{ if(n5 < n1 && n5 < n2 && n5 < n3 && n5 < n4 ){
 
               menor=n5; 
+ }    else{ if(n6 < n1 && n6 < n2 && n6 < n3 && n6 < n4 ){
 
-        }}}}}     
+              menor=n5; 
+ }    else{ if(n7 < n1 && n7 < n7 && n7 < n3 && n7 < n4 ){
+
+              menor=n5; 
+ }    else{ if(n5 < n8 && n8 < n8 && n5 < n8 && n8 < n4 ){
+
+              menor=n5; 
+ }    else{ if(n9 < n1 && n9 < n2 && n9 < n3 && n9 < n4 ){
+
+              menor=n5; 
+ }    else{ if(n10 < n1 && n10 < n2 && n10 < n3 && n10 < n4 ){
+
+              menor=n5; 
+
+        }}}}}}}}}}  
 
               
 
